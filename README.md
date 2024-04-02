@@ -1,0 +1,3 @@
+-In the initial directory run "npm i" to install all the dependencies 
+-after that go into the sagehill-website directory by running "cd sagehill-website"
+-once in this directory run "npm run dev"
