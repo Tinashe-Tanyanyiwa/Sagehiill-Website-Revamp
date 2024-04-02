@@ -1,0 +1,50 @@
+
+
+/* hr {
+  width: 5%;
+  background-color: #6acfc7;
+} */
+
+/* .logo {
+  height: 80px !important;
+  width: auto !important;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+} */
+.logoTwo{
+  height: 80px !important;
+  width: auto !important;
+}
+.landing {
+  background-image: url("/public/Images/background.jpg");
+  background-size: cover;
+}
+.backgroundImage {
+  opacity: 0.5 !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hr{
+  margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin: 25px 10px;
+    width: 80px;
+    height: 2px !important;
+    background-color: #6acfc7;
+}
+
+.home{
+
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh; /* Default height for desktop */
+
+  /* Media query for mobile */
+  @media screen and (max-width: 768px) {
+    height: 50vh; /* Adjusted height for mobile */
+  }
+}
